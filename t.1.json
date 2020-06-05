@@ -1,0 +1,15 @@
+{//标题
+    "description" : "An imaginary server config file",
+    # 一个python注释
+    "logs" : {"level":"verbose",/*利用多行注释\n写在了两个变量的中间*/ "dir":"/var/log"},
+    /*多
+    行
+    注
+    释*/
+    "host" :`/*伪装的像注释的内容\`d'r"n
+    nu'*/ "antlr.org"`,//这有一个跨行的反引号字符串
+    "admin": ["parrt", "tombu",{'1':[{'1':[2,{'3':4}]}]}],//复杂嵌套
+    "aliases": [],//空数组
+    "aliases2": {},//空对象
+    'other test':[1,2,{`1`:2,},'\u1234',],//多了逗号的式子
+} # haf
